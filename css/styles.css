@@ -1,0 +1,192 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul{
+ list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header-logo {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-logo-italic {
+  color: var(--IRIS, #4d5ae5);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-menu-link {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.50; /* 150% */
+  letter-spacing: 0.02em;
+}
+/*=========================================*/
+
+.contacts-text{
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  line-height: 1.50; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+
+/*=================== HERO ==================*/
+.hero {
+  background-color: var(--NAVY-BLUE, #2E2F42);
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+  
+}
+.hero-title {
+  width: 496px;
+  color: rgb(250, 250, 250);
+  color: var(--WHITE, #FFF);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+}
+.hero-buy-btn {
+  border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+display: inline-flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+}
+/* ================================= */
+
+/* ============== CATEGORY =============== */
+
+.features {
+  background-color: aqua;
+ 
+}
+
+.features-subtitle {
+  width: 264px;
+  color: var(--NAVY-BLUE, #2E2F42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.20;
+  letter-spacing: 0.02em;
+}
+.features-item-text {
+  width: 264px;
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  line-height: 1.50; /* 150% */
+  letter-spacing: 0.02em;
+}
+/* ======================================== */
+
+/* =========== OUR TEAM =========== */
+
+.our {
+  background: var(--CLOUD, #F4F4FD);
+  width: 1440px;
+  height: 732px;
+  flex-shrink: 0;
+}
+.our-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.out-item-text{
+color: var(--SLATE, #434455);
+text-align: center;
+font-size: 16px;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.02em;
+}
+
+.our-subtitle {
+  color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.20; /* 120% */
+letter-spacing: 0.2em;
+}
+
+/* ================================== */
+
+/* =============== PORTFOLIO ============== */
+.portfolio {
+  color: var(--NAVY-BLUE, #2E2F42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.portfolio-item-text{
+  color: var(--SLATE, #434455);
+font-size: 16px;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.02em;
+
+}
+.potrfolio-subtitle{
+  color: var(--NAVY-BLUE, #2E2F42);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.20; /* 120% */
+letter-spacing: 0.02em;
+}
+/*============*/
+
+/*===== FOOTER ========*/
+
+.footer{
+background-color: var(--NAVY-BLUE, #2E2F42);
+width: 1440px;
+height: 312px;
+flex-shrink: 0;
+}
+.footer-text{
+  color: var(--CLOUD, #F4F4FD);
+  font-size: 16px;
+  line-height: 1.50; /* 150% */
+  letter-spacing: 0.02em;
+}
